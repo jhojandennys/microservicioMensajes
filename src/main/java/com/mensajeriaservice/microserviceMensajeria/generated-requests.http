@@ -1,0 +1,11 @@
+POST http://localhost:8081/api/messages
+Content-Type: application/json
+
+{
+    "id" : "55555",
+    "senderId": "user123",
+    "recipientId": "user456",
+    "chatSessionId": "session789",
+    "content": "Hola, ¿cómo estás?",
+    "roomId":"f0402758-03f8-4113-9af4-6dfa09fbd830"
+}
